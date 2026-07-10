@@ -14,6 +14,46 @@
   "next_step": "Replace seed rankings with BEIR/MovieLens-style results and test user-control tradeoffs.",
   "professor": "Thorsten Joachims",
   "project_family": "retrieval",
+  "proposed_method": {
+    "algorithm_id": "P023-Joachims-InformationRetrieval",
+    "algorithm_name": "JoachimsTemporalInformationRetrievalStressAgent",
+    "core_mechanism": "prioritizes ranking cases where relevance, evidence, and controllability diverge",
+    "decision_rule": "Rank seed cases by retrieval-specific priority score with Joachims-aligned focus term 'information retrieval'.",
+    "mean_priority_score": 0.2793,
+    "project_family": "retrieval",
+    "top_cases": [
+      {
+        "action": "inspect evidence/control mismatch",
+        "case_id": "Q2:D5",
+        "priority_score": 0.58,
+        "signals": {
+          "has_evidence": false,
+          "rank_discount": 0.5,
+          "relevance": 1.0
+        }
+      },
+      {
+        "action": "inspect evidence/control mismatch",
+        "case_id": "Q1:D3",
+        "priority_score": 0.42,
+        "signals": {
+          "has_evidence": false,
+          "rank_discount": 0.3333,
+          "relevance": 0.0
+        }
+      },
+      {
+        "action": "retain ranking support example",
+        "case_id": "Q1:D1",
+        "priority_score": 0.32,
+        "signals": {
+          "has_evidence": true,
+          "rank_discount": 1.0,
+          "relevance": 1.0
+        }
+      }
+    ]
+  },
   "research_area": "ML, information retrieval, learning-to-rank, SVMs",
   "university": "Cornell University",
   "value_add": "transparent ranking evidence and controllability audit"
