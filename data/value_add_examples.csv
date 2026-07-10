@@ -1,0 +1,7 @@
+query_id,doc_id,rank,relevance,has_evidence,controllable_feature
+Q1,D1,1,3,true,recency
+Q1,D2,2,2,true,method
+Q1,D3,3,0,false,cost
+Q2,D4,1,2,true,method
+Q2,D5,2,3,false,fairness
+Q2,D6,3,1,true,recency

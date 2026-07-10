@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "artifact": "transparent ranking evidence audit",
+    "control_dimensions": [
+      "cost",
+      "fairness",
+      "method",
+      "recency"
+    ],
+    "ndcg_at_3": 0.9214,
+    "num_queries": 2,
+    "top3_evidence_coverage": 0.6667
+  },
+  "next_step": "Replace seed rankings with BEIR/MovieLens-style results and test user-control tradeoffs.",
+  "professor": "Thorsten Joachims",
+  "project_family": "retrieval",
+  "research_area": "ML, information retrieval, learning-to-rank, SVMs",
+  "university": "Cornell University",
+  "value_add": "transparent ranking evidence and controllability audit"
+}

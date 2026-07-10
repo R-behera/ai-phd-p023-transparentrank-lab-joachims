@@ -1,0 +1,13 @@
+{
+  "professor": "Thorsten Joachims",
+  "university": "Cornell University",
+  "program": "Computer Science",
+  "research_area": "ML, information retrieval, learning-to-rank, SVMs",
+  "representative_paper": "Optimizing Search Engines using Clickthrough Data; 2002; KDD",
+  "paper_link": "https://scholar.google.com/scholar?q=Optimizing+Search+Engines+using+Clickthrough+Data",
+  "project_family": "retrieval",
+  "focus": "information retrieval",
+  "value_add_artifact": "transparent ranking evidence and controllability audit",
+  "next_step": "Replace seed rankings with BEIR/MovieLens-style results and test user-control tradeoffs.",
+  "generated_for": "professor outreach value-add starter"
+}
